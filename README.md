@@ -22,8 +22,8 @@ Mobile App Framework | [![Flutter](https://skillicons.dev/icons?i=flutter)](http
 Backend Development |  [![NestJs](https://skillicons.dev/icons?i=nestjs)](https://skillicons.dev)
 Programming Languages | [![Programming Languages](https://skillicons.dev/icons?i=py,java,js,c,cpp)](https://skillicons.dev)
 Containerization | [![docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev)
-API Documentation | ![Swagger] <img src="https://th.bing.com/th/id/OIP.lLk42nYLkpFntb9OO7W9mAHaHm?pid=ImgDet&rs=1" alt="UNIX Like Systems" width="45" height="55"  style="vertical-align:top; margin:4px"> 
-Database |  [![MySQL](https://skillicons.dev/icons?i=mysql)](https://skillicons.dev)[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
+API Documentation | <img src="https://th.bing.com/th/id/OIP.lLk42nYLkpFntb9OO7W9mAHaHm?pid=ImgDet&rs=1" alt="UNIX Like Systems" width="45" height="55"  style="vertical-align:top; margin:4px"> 
+Database |  [![Database](https://skillicons.dev/icons?i=mysql,postgres)](https://skillicons.dev)
 NoSQL Database | [![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)
 Database ORM | [![Prisma](https://skillicons.dev/icons?i=prisma)](https://skillicons.dev)
 Blockchain Development | [![Blockchain Development](https://skillicons.dev/icons?i=solidity)](https://skillicons.dev)
