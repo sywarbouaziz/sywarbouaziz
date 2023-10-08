@@ -1,5 +1,5 @@
 ### Hi there, I'm Siwar Bouaziz👋
-[![Linkedin](https://img.shields.io/badge/-siwar.bouaziz-blue?style=flat&logo=Linkedin&logoColor=white)](https://github.com/sywarba) [![Gmail](https://img.shields.io/badge/-siwar.bouaziz-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:siwar.bouaziz@ensi-uma.tn
+[![Linkedin](https://img.shields.io/badge/-siwar.bouaziz-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/siwar-bouaziz/) [![Gmail](https://img.shields.io/badge/-siwar.bouaziz-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:siwar.bouaziz@ensi-uma.tn
 ) 
 
 I am a Computer Science Engineering Student who is passionate about learning new tools and technologies!
