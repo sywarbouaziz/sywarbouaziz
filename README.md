@@ -5,6 +5,7 @@
 I am a Computer Science Engineering Student who is passionate about learning new tools and technologies!
 
 
+
 <a href="https://github.com/DenverCoder1/readme-typing-svg">
 <img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Science+Engineering+Student;Full+Stack+Developer;DevOps+Engineer;Data+Science+and+Artificial+Intelligence+enthusiast&center=false&width=500&height=50">
 </a>
@@ -12,8 +13,11 @@ I am a Computer Science Engineering Student who is passionate about learning new
 * :sparkle: My interests span various fields, including **Full-stack Web Development**, **DevOps**, **Big Data**, **Data Science & Analytics**, **Artificial Intelligence**, and **Cybersecurity**.💻🔒
 - 🚀 Currently, I'm diving into Machine Learning. 🧠
 - 🤝 I'm actively looking for collaboration opportunities in projects related to both web development and machine learning. 🤖👩‍💻
+### LeetCode Profile 👨‍💻
 
-### Languages and Tools
+[![LeetCode](https://img.shields.io/badge/LeetCode-Siwar_Bouaziz-ff69b4?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/siwar_bouaziz/)
+
+### My Tech Arsenal 🛠️
 
 Field | Languages, Frameworks and Tools
 :---: | :---
