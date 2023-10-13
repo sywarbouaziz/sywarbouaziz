@@ -15,7 +15,7 @@ I am a Computer Science Engineering Student who is passionate about learning new
 - 🤝 I'm actively looking for collaboration opportunities in projects related to both web development and machine learning. 🤖👩‍💻
 ### LeetCode Profile 👨‍💻
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Siwar_Bouaziz-ff69b4?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/siwar_bouaziz/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Siwar_Bouaziz-ff69b4?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/sywarba/)
 
 ### My Tech Arsenal 🛠️
 
