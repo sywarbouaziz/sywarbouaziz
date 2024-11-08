@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siwar Bouaziz Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #2e3a59;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 100px;
+    }
+    header {
+      text-align: center;
+      background-color: #5c9ead;
+      padding: 40px 20px;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 30px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      font-size: 1.8em;
+      color: #394867;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .skill {
+      padding: 15px;
+      background-color: #e8f5ff;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .skills-grid img {
+      max-width: 80%;
+      margin: 10px 0;
+    }
+    .project iframe {
+      width: 100%;
+      height: 500px; /* Increased height for better viewing */
+      border: none;
+    }
+    footer {
+      text-align: center;
+      background-color: #394867;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi there, I'm Siwar Bouaziz 👋</h1>
+    <p>
+      <a href="https://www.linkedin.com/in/siwar-bouaziz/" target="_blank">
+        <img src="https://img.shields.io/badge/-siwar.bouaziz-blue?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <a href="mailto:siwar.bouaziz@ensi-uma.tn">
+        <img src="https://img.shields.io/badge/-siwar.bouaziz-c14438?style=flat&logo=Gmail&logoColor=white" alt="Gmail">
+      </a>
+    </p>
+    <p>I am a Computer Science Engineering graduate passionate about guiding others, improving my skills, and making complex ideas easy to understand!</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me ✨</h2>
+    <p>🚀 I'm a passionate <strong>DevOps</strong> and <strong>Full-stack Developer</strong> 🌐 who thrives on solving challenges and building efficient, scalable systems. Currently, I'm working on a personal project: a <strong>web scraper</strong> 🛒🔍 to track the best discounts on my favorite products. It’s a practical way for me to apply my skills to real-world scenarios!</p>
+  
+    <p>💡 Outside of coding, I love teaching and guiding others. Whether it’s explaining complex technical concepts to professionals 🧑‍💻 or making learning engaging for kids 👩‍🏫👧👦, I aim to make difficult topics easy to understand. My empathetic nature ❤️ helps me connect with learners of all backgrounds and make learning more accessible and enjoyable.</p>
+  
+    <p>In short, I'm a lifelong learner and problem-solver 📚🧩, always seeking new ways to innovate, share knowledge 🤝, and grow both personally and professionally!</p>
+  </section>
+  
+
+  <section id="skills">
+    <h2>My Tech Arsenal 🛠️</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>Frontend Development</h3>
+        <img src="https://skillicons.dev/icons?i=vue,react" alt="Frontend skills">
+      </div>
+      <div class="skill">
+        <h3>Backend Development</h3>
+        <img src="https://skillicons.dev/icons?i=nestjs" alt="Backend skills">
+      </div>
+      <div class="skill">
+        <h3>Programming Languages</h3>
+        <img src="https://skillicons.dev/icons?i=py,java,js,c" alt="Languages">
+      </div>
+      <div class="skill">
+        <h3>DevOps & CI/CD</h3>
+        <img src="https://skillicons.dev/icons?i=docker,jenkins" alt="Docker and Jenkins">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Highlighted Projects 🎉 🎉</h2>
+    <div class="project">
+        <h3>E-learning Platform</h3>
+        <iframe src="https://drive.google.com/file/d/1gjTaR3f5ygp3Y9V008chFYTc49We9vGA/preview" title="E-learning demo"></iframe>
+        <p>This is a comprehensive platform designed to facilitate employee learning and development. It allows users to engage with a variety of courses, track their progress, and receive personalized recommendations based on their learning history and preferences.</p>
+        <p>Key features of the platform include:</p>
+        <ul>
+          <li><span class="icon">✅</span><strong>Course Management:</strong> Admins can validate courses and modules, ensuring that content is appropriate and up-to-date before being made available to users.</li>
+          <li><span class="icon">✅</span><strong>Progress Tracking:</strong> Users can mark chapters as completed, enabling both users and admins to track their learning progress.</li>
+          <li><span class="icon">✅</span><strong>Personalized Recommendations:</strong> The system provides course suggestions tailored to each user based on their interactions and progress within the platform.</li>
+          <li><span class="icon">✅</span><strong>Modular Learning:</strong> Each course is divided into modules and chapters, allowing users to learn at their own pace while providing flexibility for admins to validate content on a chapter-by-chapter or module-by-module basis.</li>
+        </ul>
+        <p>Overall, the platform ensures an efficient, flexible, and personalized learning experience for users while giving admins full control over the course content and progress monitoring.</p>
+      </div>
+      <div class="project">
+        <h3>Interactive Service Map</h3>
+        <iframe src="https://drive.google.com/file/d/125MIJO-OwOmU0aoWqTwC-XUX-f9UrNAL/preview" title="Service map demo"></iframe>
+        <p>This project is an interactive service map that allows users to visualize incidents, accidents, events, and the location of nearby professionals in real-time. It enhances communication and helps users stay informed about what’s happening in their vicinity.</p>
+        <p>Key features of the map include:</p>
+        <ul>
+          <li><span class="icon">✅</span><strong>Real-time Visualization:</strong> Incidents, accidents, events, and professionals are displayed on an interactive map that updates in real time.</li>
+          <li><span class="icon">✅</span><strong>Location-Based Interaction:</strong> Users can view and interact with nearby posts, such as accidents, events, or service providers, based on their location.</li>
+          <li><span class="icon">✅</span><strong>Live Updates:</strong> Users can share real-time posts related to incidents, events, or professional services in their area.</li>
+        </ul>
+        <p>In summary, this service map helps users stay informed, share important updates, and connect with professionals quickly and efficiently through an interactive, real-time platform.</p>
+      </div>
+      
+  </section>
+
+  <footer>
+    <p>💻 Built with love by Siwar Bouaziz 🌟</p>
+  </footer>
+
+</body>
+</html>
