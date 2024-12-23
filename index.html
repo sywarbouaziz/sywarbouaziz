@@ -58,6 +58,36 @@
       height: 500px; /* Increased height for better viewing */
       border: none;
     }
+    .chapters {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between links */
+  margin-top: 10px; /* Space above chapters */
+}
+
+    .chapters a {
+      font-size: 1.2em;
+      color: #5c9ead;
+      text-decoration: none;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .chapters a:hover {
+      text-decoration: underline;
+    }
+    .video-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .interactive-map {
+      max-width: 800px;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
     footer {
       text-align: center;
       background-color: #394867;
@@ -92,7 +122,6 @@
   
     <p>In short, I'm a lifelong learner and problem-solver 📚🧩, always seeking new ways to innovate, share knowledge 🤝, and grow both personally and professionally!</p>
   </section>
-  
 
   <section id="skills">
     <h2>My Tech Arsenal 🛠️</h2>
@@ -120,7 +149,16 @@
     <h2>Highlighted Projects 🎉 🎉</h2>
     <div class="project">
         <h3>E-learning Platform</h3>
-        <iframe src="https://drive.google.com/file/d/1gjTaR3f5ygp3Y9V008chFYTc49We9vGA/preview" title="E-learning demo"></iframe>
+        <div class="video-container">
+          <!-- Embed the Vimeo video -->
+          <iframe id="vimeo-player" src="https://player.vimeo.com/video/1041697032?api=1&player_id=vimeo-player" 
+                  width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <div class="chapters">
+          <a href="javascript:void(0);" onclick="skipToChapter(0)">Admin Interface</a>
+          <a href="javascript:void(0);" onclick="skipToChapter(103)">Trainer Interface</a>
+          <a href="javascript:void(0);" onclick="skipToChapter(127)">User Interface</a>
+        </div>
         <p>This is a comprehensive platform designed to facilitate employee learning and development. It allows users to engage with a variety of courses, track their progress, and receive personalized recommendations based on their learning history and preferences.</p>
         <p>Key features of the platform include:</p>
         <ul>
@@ -133,7 +171,10 @@
       </div>
       <div class="project">
         <h3>Interactive Service Map</h3>
-        <iframe src="https://drive.google.com/file/d/125MIJO-OwOmU0aoWqTwC-XUX-f9UrNAL/preview" title="Service map demo"></iframe>
+        <div class="interactive-map">
+          <!-- Embed the interactive map -->
+          <iframe src="https://drive.google.com/file/d/125MIJO-OwOmU0aoWqTwC-XUX-f9UrNAL/preview" title="Service map demo"></iframe>
+        </div>
         <p>This project is an interactive service map that allows users to visualize incidents, accidents, events, and the location of nearby professionals in real-time. It enhances communication and helps users stay informed about what’s happening in their vicinity.</p>
         <p>Key features of the map include:</p>
         <ul>
@@ -149,6 +190,27 @@
   <footer>
     <p>💻 Built with love by Siwar Bouaziz 🌟</p>
   </footer>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script>
+    // Create a new Vimeo player instance
+    var player = new Vimeo.Player('vimeo-player');
+    
+    // Function to skip to a specific chapter in the video
+    function skipToChapter(time) {
+      player.setCurrentTime(time).then(function(seconds) {
+        player.play(); // Play the video from the specified time
+      }).catch(function(error) {
+        console.error('Error seeking to time: ', error);
+      });
+    }
 
+    player.on('play', function() {
+      console.log('Video is playing');
+    });
+
+    player.on('pause', function() {
+      console.log('Video is paused');
+    });
+  </script>
 </body>
 </html>
